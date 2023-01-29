@@ -1,0 +1,70 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+body {
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+}
+
+p {
+  width: 80%;
+  opacity: 80%;
+}
+
+img {
+  width: 80px;
+}
+
+.bg-bright-orange {
+  background-color: hsl(31deg, 77%, 52%);
+}
+.bg-bright-orange button {
+  width: 150px;
+  color: hsl(31deg, 77%, 52%);
+}
+.bg-bright-orange button:hover {
+  background-color: hsl(31deg, 77%, 52%);
+  color: hsl(0deg, 0%, 100%);
+  border: 1px solid hsl(0deg, 100%, 100%);
+}
+.bg-bright-orange:nth-last-child(2) {
+  background-color: hsl(184deg, 100%, 22%);
+}
+.bg-bright-orange:nth-last-child(2) button {
+  width: 150px;
+  color: hsl(184deg, 100%, 22%);
+}
+.bg-bright-orange:nth-last-child(2) button:hover {
+  background-color: hsl(184deg, 100%, 22%);
+  color: hsl(0deg, 0%, 100%);
+  border: 1px solid hsl(0deg, 100%, 100%);
+}
+.bg-bright-orange:last-of-type {
+  background-color: hsl(179deg, 100%, 13%);
+}
+.bg-bright-orange:last-of-type button {
+  width: 150px;
+  color: hsl(179deg, 100%, 13%);
+}
+.bg-bright-orange:last-of-type button:hover {
+  background-color: hsl(179deg, 100%, 13%);
+  color: hsl(0deg, 0%, 100%);
+  border: 1px solid hsl(0deg, 100%, 100%);
+}
+
+@media screen and (min-width: 992px) {
+  .bg-bright-orange.rounded-top {
+    border-radius: 10px 0 0 10px !important;
+  }
+  .bg-bright-orange.rounded-bottom {
+    border-radius: 0 10px 10px 0 !important;
+  }
+}/*# sourceMappingURL=main.css.map */
